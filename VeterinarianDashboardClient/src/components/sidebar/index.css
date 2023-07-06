@@ -1,0 +1,25 @@
+.sidebar {
+  display: flex;
+  background-color: var(--color-grey-light);
+  position: relative;
+  flex: 0 0 20%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-logo {
+  width: 8rem;
+}
+
+.sidebar-message {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.sidebar-bookings-number {
+  text-transform: uppercase;
+  font-size: 12px;
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetDashBoard", "VetDashBoard\VetDashBoard.csproj", "{D5A795F6-E361-423D-AA29-7EEEC84CDD77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetDashboardUnitTests", "..\VetDashboardUnitTests\VetDashboardUnitTests.csproj", "{57D116A4-08B6-42C0-82BD-2D042C441B1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5A795F6-E361-423D-AA29-7EEEC84CDD77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A795F6-E361-423D-AA29-7EEEC84CDD77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A795F6-E361-423D-AA29-7EEEC84CDD77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A795F6-E361-423D-AA29-7EEEC84CDD77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D116A4-08B6-42C0-82BD-2D042C441B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D116A4-08B6-42C0-82BD-2D042C441B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D116A4-08B6-42C0-82BD-2D042C441B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D116A4-08B6-42C0-82BD-2D042C441B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD96C7CA-BBC0-4278-A26F-BDF561E60204}
+	EndGlobalSection
+EndGlobal

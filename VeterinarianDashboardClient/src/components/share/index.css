@@ -1,0 +1,129 @@
+.list-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 70% auto;
+  height: 20rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  background-color: var(--color-primary-light-3);
+  border-radius: 1rem;
+}
+
+.list-item:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+
+.list-item--avatar {
+  position: absolute;
+  top: 2rem;
+  left: 1rem;
+  display: grid;
+  grid-row: 1 / 2;
+  justify-items: center;
+}
+
+.list-item--info {
+  display: grid;
+  grid-column: 2 / 5;
+}
+
+.list-item--details {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 1rem;
+}
+
+.list-item--details > *:not(:last-of-type) {
+  margin-bottom: 0.5rem;
+}
+
+.list-item-animal--details {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.list-item-user--details {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.list-item-user--time {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.list-item--appointment {
+  display: flex;
+  gap: 0.5rem;
+}
+.list-item-footer {
+  display: grid;
+  grid-row: 2 / 3;
+  grid-column: 1 / 5;
+}
+
+.list-item-footer--btns {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.list-item-btn {
+  display: flex;
+  justify-content: center;
+  width: 14rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.75rem 4rem;
+  border-radius: 5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  background-color: var(--color-primary-light-2);
+  color: var(--color-text);
+}
+
+.list-item-btn:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.list-item-btn:active {
+  outline: none;
+  transform: translateY(0);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  background-color: var(--color-primary-light-2);
+}
+
+.list-item-btn:focus {
+  background-color: var(--color-primary-light-2);
+}
+
+.error-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 28rem;
+  height: 17rem;
+  border: none;
+  background-color: white;
+  display: flex;
+  border-radius: 5px;
+  z-index: 999999;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-modal > h1 {
+  font-size: 24px;
+}
+
+.error-modal > h2 {
+  font-size: 14px;
+}
